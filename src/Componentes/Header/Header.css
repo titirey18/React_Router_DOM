@@ -1,0 +1,26 @@
+Header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10svh;
+  background-color: white;
+}
+
+Header > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  height: 10svh;
+}
+
+Header a {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
